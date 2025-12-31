@@ -37,7 +37,7 @@
 		errorMessage = '';
 
 		try {
-			const response = await fetch('https://dollar-pay-backend.onrender.com/register', {
+			const response = await fetch('https://dollar-pay-backend.onrender.com/auth/register', {
 				method: 'POST',
 				headers: {
 					accept: 'application/json',
